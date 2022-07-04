@@ -23,4 +23,32 @@ let password2="";
 }
 
 
+function copyPass1(){
+navigator.clipboard.writeText(passwordEl1.innerText)
+.then(function(){
+    document.querySelector("#copy-btn1").innerText= "Copied"
+
+    setTimeout(function(){
+        // alert("Text Copied");
+        document.querySelector("#copy-btn1").innerText= "Copy To Clipboard"
+    },1000)
+    
+})
+}
+
+function copyPass2(){
+    navigator.clipboard.writeText(passwordEl2.innerText)
+    .then(function(){
+        document.querySelector("#copy-btn2").innerText= "Copied"
+    
+        setTimeout(function(){
+            // alert("Text Copied");
+            document.querySelector("#copy-btn2").innerText= "Copy To Clipboard"
+        },1000)
+        
+    })
+    }
+    
+    
+
 

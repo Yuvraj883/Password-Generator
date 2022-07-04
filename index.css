@@ -46,9 +46,27 @@ hr{
     margin:auto;
     border-radius:.2em;
     color:#10B981;
-    
+    margin-bottom:0;
 }
+
 .container{
     display:flex;
     margin-top:1em;
+    margin-bottom:0em;
+}
+.copy-btn{
+    font-size:.8em;
+    margin-left:0;
+    margin-top:.3em;
+    position:fixed;
+   
+}
+.btn-container{
+    display:flex;
+}
+.btn-row{
+    margin-right:auto;
+    margin-top:0;
+    margin-left:1.6rem;
+
 }
